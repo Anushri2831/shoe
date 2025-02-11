@@ -1,0 +1,126 @@
+.checkout-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f8f8f8;
+  }
+  
+  .checkout-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .checkout-steps {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    color: gray;
+  }
+  
+  .step.active {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .checkout-content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .summary-order,
+  .payment-details {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  .order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .order-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+  }
+  
+  .item-details {
+    flex: 1;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .shipping-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .shipping-options label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .shipping-options label.selected {
+    border-color: black;
+  }
+  
+  .payment-details input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-summary {
+    margin-top: 20px;
+  }
+  
+  .payment-summary p {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-summary h3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .pay-button {
+    width: 100%;
+    padding: 15px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
