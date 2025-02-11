@@ -62,7 +62,7 @@ const Checkout = () => {
         {/* Payment Details */}
         <div className="payment-details">
         <div className="checkout-steps">
-        <span className="step active"> Information</span>
+        <span className="step active"><Icon path={mdiCheckCircle} size={1}color="#007bff" /> Information</span>
         <span className="step active">2 Payment Details</span>
         <span className="step">3 Complete Order</span>
         </div>

@@ -124,3 +124,15 @@
     border-radius: 5px;
     margin-top: 20px;
   }
+
+  .step.active{
+    position: relative;
+    padding-left:20px;
+  }
+
+  .step.active .verified-icon{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:0;
+  }
