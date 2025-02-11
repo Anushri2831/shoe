@@ -17,21 +17,21 @@ const Checkout = () => {
           <p>Check your item and select your shipping for a better experience.</p>
           <div className="order-items">
             <div className="order-item">
-              <img src="shoe1.jpg" alt="Shoe 1" />
+              <img src="https://th.bing.com/th/id/OIP.IidAryC8PMSMDqFnj6dziAHaEl?w=304&h=189&c=7&r=0&o=5&pid=1.7" alt="Shoe 1" />
               <div className="item-details">
                 <p>New Balance 57/40 Men's Sneakers - Mindful Grey</p>
                 <p className="price">$129.00 <span className="old-price">$189.00</span></p>
               </div>
             </div>
             <div className="order-item">
-              <img src="shoe2.jpg" alt="Shoe 2" />
+              <img src="https://th.bing.com/th/id/OIP.9ZhYqmzfKDLOG_pBEcI6JAAAAA?w=323&h=185&c=7&r=0&o=5&pid=1.7" alt="Shoe 2" />
               <div className="item-details">
                 <p>New Balance 997H Men's Sneakers - Grey</p>
                 <p className="price">$119.00 <span className="old-price">$179.00</span></p>
               </div>
             </div>
             <div className="order-item">
-              <img src="shoe3.jpg" alt="Shoe 3" />
+              <img src="https://th.bing.com/th/id/OIP.8rFfkINNJ9v00FIX0KU1RAHaFj?w=261&h=196&c=7&r=0&o=5&pid=1.7" alt="Shoe 3" />
               <div className="item-details">
                 <p>New Balance 57/40 Women's - Oyster Pink</p>
                 <p className="price">$149.00</p>
@@ -45,13 +45,13 @@ const Checkout = () => {
             <label className={selectedShipping === "Fedex" ? "selected" : ""}>
               <input type="radio" name="shipping" value="Fedex" checked={selectedShipping === "Fedex"} onChange={() => setSelectedShipping("Fedex")} />
               <span className="shipping-label">
-                <img src="fedex-logo.png" alt="FedEx" /> FedEx Delivery (Free)
+                <img src="https://th.bing.com/th?q=FedEx+Tracking+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="FedEx" /> FedEx Delivery (Free)
               </span>
             </label>
             <label className={selectedShipping === "DHL" ? "selected" : ""}>
               <input type="radio" name="shipping" value="DHL" checked={selectedShipping === "DHL"} onChange={() => setSelectedShipping("DHL")} />
               <span className="shipping-label">
-                <img src="dhl-logo.png" alt="DHL" /> DHL Delivery ($12.00)
+                <img src="https://th.bing.com/th?q=DHL+Delivery!+Secure+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="DHL" /> DHL Delivery ($12.00)
               </span>
             </label>
           </div>
