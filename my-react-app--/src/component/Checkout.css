@@ -136,3 +136,18 @@
     transform:translateY(-50%);
     left:0;
   }
+
+  .heading{
+    display:flex;
+    flex-direction: row;
+    gap:100px;
+    
+  }
+
+  .checkout-title{
+    color:gey
+  }
+
+  .h2{
+    font-weight:900;
+  }

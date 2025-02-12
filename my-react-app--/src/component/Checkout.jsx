@@ -8,15 +8,17 @@ const Checkout = () => {
 
   return (
     <div className="checkout-container">
-      <h1>WearUp</h1>
-      <h6 className="checkout-title">Order Overview</h6>
+      <div className="heading">
+      <h2>Wearup.</h2>
+      <h3 className="checkout-title" style={{color:"grey"}}>Order Overview</h3>
+      </div>
       
 
       <div className="checkout-content">
         {/* Summary Order */}
         <div className="summary-order">
-          <h3>Summary Order</h3>
-          <p>Check your item and select your shipping for a better experience.</p>
+          <h3><b>Summary Order</b></h3>
+          <p style={{color:"grey"}}>Check your item and select your shipping for a better experience.</p>
           <div className="order-items">
             <div className="order-item">
               <img src="https://th.bing.com/th/id/OIP.IidAryC8PMSMDqFnj6dziAHaEl?w=304&h=189&c=7&r=0&o=5&pid=1.7" alt="Shoe 1" />
