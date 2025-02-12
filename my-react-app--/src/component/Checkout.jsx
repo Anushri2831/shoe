@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Checkout.css";
 import Icon from '@mdi/react';
 import {mdiCheckCircle} from '@mdi/js'
+import { mdiInformation } from "@mdi/js";
 
 const Checkout = () => {
   const [selectedShipping, setSelectedShipping] = useState("Fedex");
@@ -44,7 +45,7 @@ const Checkout = () => {
           </div>
 
           {/* Shipping Method */}
-          <h3>Available Shipping Method</h3>
+          <h3>Available Shipping Method <Icon path={mdiInformation} size={1}/></h3>
           <div className="shipping-options">
             <label className={selectedShipping === "Fedex" ? "selected" : ""}>
               <input type="radio" name="shipping" value="Fedex" checked={selectedShipping === "Fedex"} onChange={() => setSelectedShipping("Fedex")} />
