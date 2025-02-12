@@ -19,23 +19,23 @@ const Checkout = () => {
         <div className="summary-order">
           <h3><b>Summary Order</b></h3>
           <p style={{color:"grey"}}>Check your item and select your shipping for a better experience.</p>
-          <div className="order-items">
+          <div className="order-items " style={{border:"1px solid #ccc", padding:"20px"}}>
             <div className="order-item">
-              <img src="https://th.bing.com/th/id/OIP.IidAryC8PMSMDqFnj6dziAHaEl?w=304&h=189&c=7&r=0&o=5&pid=1.7" alt="Shoe 1" />
+              <img src="https://th.bing.com/th/id/OIP.IidAryC8PMSMDqFnj6dziAHaEl?w=304&h=189&c=7&r=0&o=5&pid=1.7" alt="Shoe 1" style={{border:"1px solid #ccc", padding:"15px", borderRadius:"3px"}} />
               <div className="item-details">
                 <p>New Balance 57/40 Men's Sneakers - Mindful Grey</p>
                 <p className="price">$129.00 <span className="old-price">$189.00</span></p>
               </div>
             </div>
             <div className="order-item">
-              <img src="https://th.bing.com/th/id/OIP.9ZhYqmzfKDLOG_pBEcI6JAAAAA?w=323&h=185&c=7&r=0&o=5&pid=1.7" alt="Shoe 2" />
+              <img src="https://th.bing.com/th/id/OIP.9ZhYqmzfKDLOG_pBEcI6JAAAAA?w=323&h=185&c=7&r=0&o=5&pid=1.7" alt="Shoe 2"  style={{border:"1px solid #ccc", padding:"15px",  borderRadius:"3px"}}/>
               <div className="item-details">
                 <p>New Balance 997H Men's Sneakers - Grey</p>
                 <p className="price">$119.00 <span className="old-price">$179.00</span></p>
               </div>
             </div>
             <div className="order-item">
-              <img src="https://th.bing.com/th/id/OIP.8rFfkINNJ9v00FIX0KU1RAHaFj?w=261&h=196&c=7&r=0&o=5&pid=1.7" alt="Shoe 3" />
+              <img src="https://th.bing.com/th/id/OIP.8rFfkINNJ9v00FIX0KU1RAHaFj?w=261&h=196&c=7&r=0&o=5&pid=1.7" alt="Shoe 3" style={{border:"1px solid #ccc", padding:"15px"  ,borderRadius:"3px"}} />
               <div className="item-details">
                 <p>New Balance 57/40 Women's - Oyster Pink</p>
                 <p className="price">$149.00</p>
