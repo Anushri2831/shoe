@@ -151,3 +151,8 @@
   .h2{
     font-weight:900;
   }
+
+  .step.active{
+    display:flex;
+    flex-direction: column;
+  }
